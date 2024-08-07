@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="18.279" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Cart functionality" name="Successfully adding a product to the cart" time="17.982">
+<system-out><![CDATA[
+Given I am on the Demoblaze homepage........................................passed
+And I Select the the laptop category........................................passed
+Then select click on any laptop related item................................passed
+And I click on the "Add to cart" button.....................................passed
+And I click on the "OK" button in the alert dialog..........................passed
+Then I click on the cart icon...............................................passed
+And I should see my selected item in the cart...............................passed
+]]></system-out>
+</testcase>
+</testsuite>

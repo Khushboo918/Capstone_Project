@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.store.TestCases.ContactPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testContactForm"/>
+        </methods>
+      </class> <!-- com.store.TestCases.ContactPage -->
+      <class name="com.store.TestCases.CartPage">
+        <methods>
+          <include name="testCartFunction"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.store.TestCases.CartPage -->
+      <class name="com.store.TestCases.HomePage">
+        <methods>
+          <include name="testHomeFunction"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.store.TestCases.HomePage -->
+      <class name="com.store.TestCases.SignUpPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testSignUpFunction"/>
+        </methods>
+      </class> <!-- com.store.TestCases.SignUpPage -->
+      <class name="com.store.TestCases.PlaceOrderPage">
+        <methods>
+          <include name="close"/>
+          <include name="setUp"/>
+          <include name="placeOrder"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.store.TestCases.PlaceOrderPage -->
+      <class name="com.store.TestCases.Login">
+        <methods>
+          <include name="close"/>
+          <include name="testLogin"/>
+          <include name="afterMethod"/>
+          <include name="setup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.store.TestCases.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
